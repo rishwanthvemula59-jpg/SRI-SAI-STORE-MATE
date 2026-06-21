@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Production builds
+frontend/dist/
+
+# SQLite Database (we resolve this dynamically in cloud environments)
+backend/store_mate.db
+backend/store_mate.db-journal
+
+# Logs and OS files
+*.log
+.DS_Store
+.vscode/
+.idea/
